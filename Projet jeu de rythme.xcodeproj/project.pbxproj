@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9209DEE92BC81C9F004BDA9A /* abstractArrow_1327x572.png in Resources */ = {isa = PBXBuildFile; fileRef = 9209DEE72BC81C9F004BDA9A /* abstractArrow_1327x572.png */; };
+		9209DEEA2BC81C9F004BDA9A /* abstractArrow_500x216.png in Resources */ = {isa = PBXBuildFile; fileRef = 9209DEE82BC81C9F004BDA9A /* abstractArrow_500x216.png */; };
+		9209DEEC2BC83DF6004BDA9A /* Lensko - Let's Go!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9209DEEB2BC83DF6004BDA9A /* Lensko - Let's Go!.mp3 */; };
+		9209DEF02BC84596004BDA9A /* abstractGreater_76x89.png in Resources */ = {isa = PBXBuildFile; fileRef = 9209DEEF2BC84596004BDA9A /* abstractGreater_76x89.png */; };
+		9225A5232BCEA5E20099ED93 /* characterDefeat_1142x616.png in Resources */ = {isa = PBXBuildFile; fileRef = 9225A51D2BCEA5E10099ED93 /* characterDefeat_1142x616.png */; };
+		9225A5242BCEA5E20099ED93 /* characterDefeat_927x500.png in Resources */ = {isa = PBXBuildFile; fileRef = 9225A51E2BCEA5E10099ED93 /* characterDefeat_927x500.png */; };
+		9225A5252BCEA5E20099ED93 /* characterVictory_1601x2176.png in Resources */ = {isa = PBXBuildFile; fileRef = 9225A51F2BCEA5E10099ED93 /* characterVictory_1601x2176.png */; };
+		9225A5262BCEA5E20099ED93 /* characterVictory_500x680.png in Resources */ = {isa = PBXBuildFile; fileRef = 9225A5202BCEA5E20099ED93 /* characterVictory_500x680.png */; };
+		9225A5362BCEA9E90099ED93 /* Syntax Error - Sunny Suburbs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9225A5342BCEA9E90099ED93 /* Syntax Error - Sunny Suburbs.mp3 */; };
+		9225A5372BCEA9E90099ED93 /* Syntax Error - Winter Golf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9225A5352BCEA9E90099ED93 /* Syntax Error - Winter Golf.mp3 */; };
+		9225A53B2BCEAA4B0099ED93 /* futuristicBackgroundGame_1920x1080.png in Resources */ = {isa = PBXBuildFile; fileRef = 9225A5392BCEAA4B0099ED93 /* futuristicBackgroundGame_1920x1080.png */; };
+		9225A5412BCEAA510099ED93 /* futuristicBackgroundMenuD_1920x1080.png in Resources */ = {isa = PBXBuildFile; fileRef = 9225A53D2BCEAA510099ED93 /* futuristicBackgroundMenuD_1920x1080.png */; };
+		9225A5422BCEAA510099ED93 /* futuristicBackgroundMenuB_1920x1080.png in Resources */ = {isa = PBXBuildFile; fileRef = 9225A53E2BCEAA510099ED93 /* futuristicBackgroundMenuB_1920x1080.png */; };
+		9225A5432BCEAA510099ED93 /* futuristicBackgroundMenuA_1920x1080.png in Resources */ = {isa = PBXBuildFile; fileRef = 9225A53F2BCEAA510099ED93 /* futuristicBackgroundMenuA_1920x1080.png */; };
+		9225A5442BCEAA510099ED93 /* futuristicBackgroundMenuC_1920x1080.png in Resources */ = {isa = PBXBuildFile; fileRef = 9225A5402BCEAA510099ED93 /* futuristicBackgroundMenuC_1920x1080.png */; };
+		9225A5472BCEAB120099ED93 /* futuristicBackgroundMenuFull_2560x1080.png in Resources */ = {isa = PBXBuildFile; fileRef = 9225A5462BCEAB120099ED93 /* futuristicBackgroundMenuFull_2560x1080.png */; };
+		922F773C2BC00B120035BA2E /* she - Chiptune Superstar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 922F77372BC00B120035BA2E /* she - Chiptune Superstar.mp3 */; };
+		922F773D2BC00B120035BA2E /* Hitomi Sato [VanilluxePavilion Remix] - Driftveil City.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 922F77382BC00B120035BA2E /* Hitomi Sato [VanilluxePavilion Remix] - Driftveil City.mp3 */; };
+		922F773E2BC00B120035BA2E /* she - Journey 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 922F77392BC00B120035BA2E /* she - Journey 3.mp3 */; };
+		922F773F2BC00B120035BA2E /* DJ Mehdi [android52 Remix] - Signatune.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 922F773A2BC00B120035BA2E /* DJ Mehdi [android52 Remix] - Signatune.mp3 */; };
+		922F77402BC00B120035BA2E /* Tzesar - Listen To My Heart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 922F773B2BC00B120035BA2E /* Tzesar - Listen To My Heart.mp3 */; };
+		922F77482BC00B1D0035BA2E /* Professor Kliq - Tail Lights.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 922F77412BC00B1D0035BA2E /* Professor Kliq - Tail Lights.mp3 */; };
+		922F77492BC00B1D0035BA2E /* Lensko - Standby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 922F77422BC00B1D0035BA2E /* Lensko - Standby.mp3 */; };
+		922F774A2BC00B1D0035BA2E /* Lensko - Cetus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 922F77432BC00B1D0035BA2E /* Lensko - Cetus.mp3 */; };
+		922F774B2BC00B1D0035BA2E /* Vexento - Sons of Norway.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 922F77442BC00B1D0035BA2E /* Vexento - Sons of Norway.mp3 */; };
+		922F774C2BC00B1D0035BA2E /* Lensko - Circles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 922F77452BC00B1D0035BA2E /* Lensko - Circles.mp3 */; };
+		922F774D2BC00B1D0035BA2E /* Vexento - Glow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 922F77462BC00B1D0035BA2E /* Vexento - Glow.mp3 */; };
+		922F77522BC00B280035BA2E /* Levantine [Agent Stereo Remix] - Midnight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 922F774F2BC00B280035BA2E /* Levantine [Agent Stereo Remix] - Midnight.mp3 */; };
+		922F77532BC00B280035BA2E /* FIBRE - SSM2044.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 922F77502BC00B280035BA2E /* FIBRE - SSM2044.mp3 */; };
+		922F77542BC00B280035BA2E /* Vasily Umanets - The Tool.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 922F77512BC00B280035BA2E /* Vasily Umanets - The Tool.mp3 */; };
+		922F77562BC04FCF0035BA2E /* EcranAccueil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F77552BC04FCF0035BA2E /* EcranAccueil.swift */; };
+		922F77582BC04FDB0035BA2E /* EcranFin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F77572BC04FDB0035BA2E /* EcranFin.swift */; };
+		922F775B2BC053B30035BA2E /* abstractCircleBlue_1250x1250.png in Resources */ = {isa = PBXBuildFile; fileRef = 922F77592BC053B30035BA2E /* abstractCircleBlue_1250x1250.png */; };
+		922F775C2BC053B30035BA2E /* abstractCircleGreen_1250x1250.png in Resources */ = {isa = PBXBuildFile; fileRef = 922F775A2BC053B30035BA2E /* abstractCircleGreen_1250x1250.png */; };
+		922F775E2BC0545E0035BA2E /* abstractCircleBlue_300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = 922F775D2BC0545E0035BA2E /* abstractCircleBlue_300x300.png */; };
+		922F77602BC054630035BA2E /* abstractCircleGreen_300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = 922F775F2BC054630035BA2E /* abstractCircleGreen_300x300.png */; };
+		92406DBE2BC597A7000AF525 /* abstractBackground_2048x1638.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92406DBD2BC597A7000AF525 /* abstractBackground_2048x1638.jpg */; };
+		92406DC02BC597E2000AF525 /* abstractBackground_300x240.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92406DBF2BC597E2000AF525 /* abstractBackground_300x240.jpg */; };
+		92406DC42BC5985E000AF525 /* SAINT PEPSI - tell me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92406DC12BC5985E000AF525 /* SAINT PEPSI - tell me.mp3 */; };
+		92406DC52BC5985E000AF525 /* 憂鬱 - Slow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92406DC22BC5985E000AF525 /* 憂鬱 - Slow.mp3 */; };
+		92406DC62BC5985E000AF525 /* MEGAS - Stargazer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92406DC32BC5985E000AF525 /* MEGAS - Stargazer.mp3 */; };
+		9261BACC2BD2D87700D7639B /* characterIcon_1024x1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9261BACB2BD2D87700D7639B /* characterIcon_1024x1024.jpg */; };
+		92DC367B2BB57AF3007E2314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC367A2BB57AF3007E2314 /* AppDelegate.swift */; };
+		92DC367D2BB57AF3007E2314 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC367C2BB57AF3007E2314 /* SceneDelegate.swift */; };
+		92DC36822BB57AF3007E2314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DC36802BB57AF3007E2314 /* Main.storyboard */; };
+		92DC36842BB57AF5007E2314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DC36832BB57AF5007E2314 /* Assets.xcassets */; };
+		92DC368F2BB58948007E2314 /* EcranJeu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC368E2BB58948007E2314 /* EcranJeu.swift */; };
+		92DC36932BB59796007E2314 /* Generation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC36922BB59796007E2314 /* Generation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9209DEE72BC81C9F004BDA9A /* abstractArrow_1327x572.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstractArrow_1327x572.png; sourceTree = "<group>"; };
+		9209DEE82BC81C9F004BDA9A /* abstractArrow_500x216.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstractArrow_500x216.png; sourceTree = "<group>"; };
+		9209DEEB2BC83DF6004BDA9A /* Lensko - Let's Go!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lensko - Let's Go!.mp3"; sourceTree = "<group>"; };
+		9209DEEF2BC84596004BDA9A /* abstractGreater_76x89.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstractGreater_76x89.png; sourceTree = "<group>"; };
+		9225A51D2BCEA5E10099ED93 /* characterDefeat_1142x616.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = characterDefeat_1142x616.png; sourceTree = "<group>"; };
+		9225A51E2BCEA5E10099ED93 /* characterDefeat_927x500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = characterDefeat_927x500.png; sourceTree = "<group>"; };
+		9225A51F2BCEA5E10099ED93 /* characterVictory_1601x2176.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = characterVictory_1601x2176.png; sourceTree = "<group>"; };
+		9225A5202BCEA5E20099ED93 /* characterVictory_500x680.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = characterVictory_500x680.png; sourceTree = "<group>"; };
+		9225A5342BCEA9E90099ED93 /* Syntax Error - Sunny Suburbs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Syntax Error - Sunny Suburbs.mp3"; sourceTree = "<group>"; };
+		9225A5352BCEA9E90099ED93 /* Syntax Error - Winter Golf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Syntax Error - Winter Golf.mp3"; sourceTree = "<group>"; };
+		9225A5392BCEAA4B0099ED93 /* futuristicBackgroundGame_1920x1080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futuristicBackgroundGame_1920x1080.png; sourceTree = "<group>"; };
+		9225A53D2BCEAA510099ED93 /* futuristicBackgroundMenuD_1920x1080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futuristicBackgroundMenuD_1920x1080.png; sourceTree = "<group>"; };
+		9225A53E2BCEAA510099ED93 /* futuristicBackgroundMenuB_1920x1080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futuristicBackgroundMenuB_1920x1080.png; sourceTree = "<group>"; };
+		9225A53F2BCEAA510099ED93 /* futuristicBackgroundMenuA_1920x1080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futuristicBackgroundMenuA_1920x1080.png; sourceTree = "<group>"; };
+		9225A5402BCEAA510099ED93 /* futuristicBackgroundMenuC_1920x1080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futuristicBackgroundMenuC_1920x1080.png; sourceTree = "<group>"; };
+		9225A5462BCEAB120099ED93 /* futuristicBackgroundMenuFull_2560x1080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futuristicBackgroundMenuFull_2560x1080.png; sourceTree = "<group>"; };
+		922F77372BC00B120035BA2E /* she - Chiptune Superstar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "she - Chiptune Superstar.mp3"; sourceTree = "<group>"; };
+		922F77382BC00B120035BA2E /* Hitomi Sato [VanilluxePavilion Remix] - Driftveil City.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hitomi Sato [VanilluxePavilion Remix] - Driftveil City.mp3"; sourceTree = "<group>"; };
+		922F77392BC00B120035BA2E /* she - Journey 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "she - Journey 3.mp3"; sourceTree = "<group>"; };
+		922F773A2BC00B120035BA2E /* DJ Mehdi [android52 Remix] - Signatune.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJ Mehdi [android52 Remix] - Signatune.mp3"; sourceTree = "<group>"; };
+		922F773B2BC00B120035BA2E /* Tzesar - Listen To My Heart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tzesar - Listen To My Heart.mp3"; sourceTree = "<group>"; };
+		922F77412BC00B1D0035BA2E /* Professor Kliq - Tail Lights.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Professor Kliq - Tail Lights.mp3"; sourceTree = "<group>"; };
+		922F77422BC00B1D0035BA2E /* Lensko - Standby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lensko - Standby.mp3"; sourceTree = "<group>"; };
+		922F77432BC00B1D0035BA2E /* Lensko - Cetus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lensko - Cetus.mp3"; sourceTree = "<group>"; };
+		922F77442BC00B1D0035BA2E /* Vexento - Sons of Norway.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Vexento - Sons of Norway.mp3"; sourceTree = "<group>"; };
+		922F77452BC00B1D0035BA2E /* Lensko - Circles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lensko - Circles.mp3"; sourceTree = "<group>"; };
+		922F77462BC00B1D0035BA2E /* Vexento - Glow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Vexento - Glow.mp3"; sourceTree = "<group>"; };
+		922F774F2BC00B280035BA2E /* Levantine [Agent Stereo Remix] - Midnight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Levantine [Agent Stereo Remix] - Midnight.mp3"; sourceTree = "<group>"; };
+		922F77502BC00B280035BA2E /* FIBRE - SSM2044.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "FIBRE - SSM2044.mp3"; sourceTree = "<group>"; };
+		922F77512BC00B280035BA2E /* Vasily Umanets - The Tool.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Vasily Umanets - The Tool.mp3"; sourceTree = "<group>"; };
+		922F77552BC04FCF0035BA2E /* EcranAccueil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcranAccueil.swift; sourceTree = "<group>"; };
+		922F77572BC04FDB0035BA2E /* EcranFin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcranFin.swift; sourceTree = "<group>"; };
+		922F77592BC053B30035BA2E /* abstractCircleBlue_1250x1250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstractCircleBlue_1250x1250.png; sourceTree = "<group>"; };
+		922F775A2BC053B30035BA2E /* abstractCircleGreen_1250x1250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstractCircleGreen_1250x1250.png; sourceTree = "<group>"; };
+		922F775D2BC0545E0035BA2E /* abstractCircleBlue_300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstractCircleBlue_300x300.png; sourceTree = "<group>"; };
+		922F775F2BC054630035BA2E /* abstractCircleGreen_300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstractCircleGreen_300x300.png; sourceTree = "<group>"; };
+		92406DBD2BC597A7000AF525 /* abstractBackground_2048x1638.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abstractBackground_2048x1638.jpg; sourceTree = "<group>"; };
+		92406DBF2BC597E2000AF525 /* abstractBackground_300x240.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abstractBackground_300x240.jpg; sourceTree = "<group>"; };
+		92406DC12BC5985E000AF525 /* SAINT PEPSI - tell me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SAINT PEPSI - tell me.mp3"; sourceTree = "<group>"; };
+		92406DC22BC5985E000AF525 /* 憂鬱 - Slow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "憂鬱 - Slow.mp3"; sourceTree = "<group>"; };
+		92406DC32BC5985E000AF525 /* MEGAS - Stargazer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MEGAS - Stargazer.mp3"; sourceTree = "<group>"; };
+		9261BACB2BD2D87700D7639B /* characterIcon_1024x1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = characterIcon_1024x1024.jpg; sourceTree = "<group>"; };
+		92DC36772BB57AF3007E2314 /* Awe and Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awe and Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DC367A2BB57AF3007E2314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92DC367C2BB57AF3007E2314 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92DC36812BB57AF3007E2314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92DC36832BB57AF5007E2314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92DC36882BB57AF5007E2314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DC368E2BB58948007E2314 /* EcranJeu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcranJeu.swift; sourceTree = "<group>"; };
+		92DC36922BB59796007E2314 /* Generation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92DC36742BB57AF3007E2314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9209DEF12BC84682004BDA9A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9261BACE2BD2D8BF00D7639B /* abstract */,
+				9261BACD2BD2D8B100D7639B /* character */,
+				9225A5332BCEA8DE0099ED93 /* futuristicBackground */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		9225A5292BCEA5EA0099ED93 /* characterDefeat */ = {
+			isa = PBXGroup;
+			children = (
+				9225A51E2BCEA5E10099ED93 /* characterDefeat_927x500.png */,
+				9225A51D2BCEA5E10099ED93 /* characterDefeat_1142x616.png */,
+			);
+			path = characterDefeat;
+			sourceTree = "<group>";
+		};
+		9225A52A2BCEA5FC0099ED93 /* characterVictory */ = {
+			isa = PBXGroup;
+			children = (
+				9225A5202BCEA5E20099ED93 /* characterVictory_500x680.png */,
+				9225A51F2BCEA5E10099ED93 /* characterVictory_1601x2176.png */,
+			);
+			path = characterVictory;
+			sourceTree = "<group>";
+		};
+		9225A5332BCEA8DE0099ED93 /* futuristicBackground */ = {
+			isa = PBXGroup;
+			children = (
+				9225A5392BCEAA4B0099ED93 /* futuristicBackgroundGame_1920x1080.png */,
+				9225A5452BCEAA580099ED93 /* futuristicBackgroundMenu */,
+			);
+			path = futuristicBackground;
+			sourceTree = "<group>";
+		};
+		9225A5382BCEA9EE0099ED93 /* _menuThemes */ = {
+			isa = PBXGroup;
+			children = (
+				9225A5342BCEA9E90099ED93 /* Syntax Error - Sunny Suburbs.mp3 */,
+				9225A5352BCEA9E90099ED93 /* Syntax Error - Winter Golf.mp3 */,
+			);
+			path = _menuThemes;
+			sourceTree = "<group>";
+		};
+		9225A5452BCEAA580099ED93 /* futuristicBackgroundMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9225A53F2BCEAA510099ED93 /* futuristicBackgroundMenuA_1920x1080.png */,
+				9225A53E2BCEAA510099ED93 /* futuristicBackgroundMenuB_1920x1080.png */,
+				9225A5402BCEAA510099ED93 /* futuristicBackgroundMenuC_1920x1080.png */,
+				9225A53D2BCEAA510099ED93 /* futuristicBackgroundMenuD_1920x1080.png */,
+				9225A5462BCEAB120099ED93 /* futuristicBackgroundMenuFull_2560x1080.png */,
+			);
+			path = futuristicBackgroundMenu;
+			sourceTree = "<group>";
+		};
+		922F77332BC0076F0035BA2E /* musiques */ = {
+			isa = PBXGroup;
+			children = (
+				9225A5382BCEA9EE0099ED93 /* _menuThemes */,
+				92406DB92BC593DD000AF525 /* chillwave */,
+				922F77342BC00A020035BA2E /* complextro */,
+				922F77362BC00AB40035BA2E /* futureFunk */,
+				922F77352BC00A150035BA2E /* progressiveHouse */,
+			);
+			path = musiques;
+			sourceTree = "<group>";
+		};
+		922F77342BC00A020035BA2E /* complextro */ = {
+			isa = PBXGroup;
+			children = (
+				922F773A2BC00B120035BA2E /* DJ Mehdi [android52 Remix] - Signatune.mp3 */,
+				922F77382BC00B120035BA2E /* Hitomi Sato [VanilluxePavilion Remix] - Driftveil City.mp3 */,
+				922F77372BC00B120035BA2E /* she - Chiptune Superstar.mp3 */,
+				922F77392BC00B120035BA2E /* she - Journey 3.mp3 */,
+				922F773B2BC00B120035BA2E /* Tzesar - Listen To My Heart.mp3 */,
+			);
+			path = complextro;
+			sourceTree = "<group>";
+		};
+		922F77352BC00A150035BA2E /* progressiveHouse */ = {
+			isa = PBXGroup;
+			children = (
+				922F77432BC00B1D0035BA2E /* Lensko - Cetus.mp3 */,
+				922F77452BC00B1D0035BA2E /* Lensko - Circles.mp3 */,
+				9209DEEB2BC83DF6004BDA9A /* Lensko - Let's Go!.mp3 */,
+				922F77422BC00B1D0035BA2E /* Lensko - Standby.mp3 */,
+				922F77412BC00B1D0035BA2E /* Professor Kliq - Tail Lights.mp3 */,
+				922F77462BC00B1D0035BA2E /* Vexento - Glow.mp3 */,
+				922F77442BC00B1D0035BA2E /* Vexento - Sons of Norway.mp3 */,
+			);
+			path = progressiveHouse;
+			sourceTree = "<group>";
+		};
+		922F77362BC00AB40035BA2E /* futureFunk */ = {
+			isa = PBXGroup;
+			children = (
+				922F77502BC00B280035BA2E /* FIBRE - SSM2044.mp3 */,
+				922F774F2BC00B280035BA2E /* Levantine [Agent Stereo Remix] - Midnight.mp3 */,
+				922F77512BC00B280035BA2E /* Vasily Umanets - The Tool.mp3 */,
+			);
+			path = futureFunk;
+			sourceTree = "<group>";
+		};
+		92406DB92BC593DD000AF525 /* chillwave */ = {
+			isa = PBXGroup;
+			children = (
+				92406DC32BC5985E000AF525 /* MEGAS - Stargazer.mp3 */,
+				92406DC12BC5985E000AF525 /* SAINT PEPSI - tell me.mp3 */,
+				92406DC22BC5985E000AF525 /* 憂鬱 - Slow.mp3 */,
+			);
+			path = chillwave;
+			sourceTree = "<group>";
+		};
+		92406DBC2BC59727000AF525 /* abstractBackground */ = {
+			isa = PBXGroup;
+			children = (
+				92406DBF2BC597E2000AF525 /* abstractBackground_300x240.jpg */,
+				92406DBD2BC597A7000AF525 /* abstractBackground_2048x1638.jpg */,
+			);
+			path = abstractBackground;
+			sourceTree = "<group>";
+		};
+		9261BACD2BD2D8B100D7639B /* character */ = {
+			isa = PBXGroup;
+			children = (
+				9225A5292BCEA5EA0099ED93 /* characterDefeat */,
+				9261BACB2BD2D87700D7639B /* characterIcon_1024x1024.jpg */,
+				9225A52A2BCEA5FC0099ED93 /* characterVictory */,
+			);
+			path = character;
+			sourceTree = "<group>";
+		};
+		9261BACE2BD2D8BF00D7639B /* abstract */ = {
+			isa = PBXGroup;
+			children = (
+				92D350CC2BC6B1CF0090D57C /* abstractArrow */,
+				92406DBC2BC59727000AF525 /* abstractBackground */,
+				926C4F342BBEDB7700E35CBF /* abstractCircle */,
+				9209DEEF2BC84596004BDA9A /* abstractGreater_76x89.png */,
+			);
+			path = abstract;
+			sourceTree = "<group>";
+		};
+		926C4F302BBEDA7400E35CBF /* Ecrans */ = {
+			isa = PBXGroup;
+			children = (
+				922F77552BC04FCF0035BA2E /* EcranAccueil.swift */,
+				92DC368E2BB58948007E2314 /* EcranJeu.swift */,
+				922F77572BC04FDB0035BA2E /* EcranFin.swift */,
+			);
+			path = Ecrans;
+			sourceTree = "<group>";
+		};
+		926C4F342BBEDB7700E35CBF /* abstractCircle */ = {
+			isa = PBXGroup;
+			children = (
+				922F775D2BC0545E0035BA2E /* abstractCircleBlue_300x300.png */,
+				922F77592BC053B30035BA2E /* abstractCircleBlue_1250x1250.png */,
+				922F775F2BC054630035BA2E /* abstractCircleGreen_300x300.png */,
+				922F775A2BC053B30035BA2E /* abstractCircleGreen_1250x1250.png */,
+			);
+			path = abstractCircle;
+			sourceTree = "<group>";
+		};
+		92D350CC2BC6B1CF0090D57C /* abstractArrow */ = {
+			isa = PBXGroup;
+			children = (
+				9209DEE82BC81C9F004BDA9A /* abstractArrow_500x216.png */,
+				9209DEE72BC81C9F004BDA9A /* abstractArrow_1327x572.png */,
+			);
+			path = abstractArrow;
+			sourceTree = "<group>";
+		};
+		92DC366E2BB57AF3007E2314 = {
+			isa = PBXGroup;
+			children = (
+				92DC36792BB57AF3007E2314 /* Projet jeu de rythme */,
+				92DC36782BB57AF3007E2314 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		92DC36782BB57AF3007E2314 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92DC36772BB57AF3007E2314 /* Awe and Time.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92DC36792BB57AF3007E2314 /* Projet jeu de rythme */ = {
+			isa = PBXGroup;
+			children = (
+				926C4F302BBEDA7400E35CBF /* Ecrans */,
+				9209DEF12BC84682004BDA9A /* images */,
+				922F77332BC0076F0035BA2E /* musiques */,
+				92DC367A2BB57AF3007E2314 /* AppDelegate.swift */,
+				92DC367C2BB57AF3007E2314 /* SceneDelegate.swift */,
+				92DC36922BB59796007E2314 /* Generation.swift */,
+				92DC36802BB57AF3007E2314 /* Main.storyboard */,
+				92DC36832BB57AF5007E2314 /* Assets.xcassets */,
+				92DC36882BB57AF5007E2314 /* Info.plist */,
+			);
+			path = "Projet jeu de rythme";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92DC36762BB57AF3007E2314 /* Projet jeu de rythme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DC368B2BB57AF5007E2314 /* Build configuration list for PBXNativeTarget "Projet jeu de rythme" */;
+			buildPhases = (
+				92DC36732BB57AF3007E2314 /* Sources */,
+				92DC36742BB57AF3007E2314 /* Frameworks */,
+				92DC36752BB57AF3007E2314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Projet jeu de rythme";
+			productName = "Projet jeu de rythme";
+			productReference = 92DC36772BB57AF3007E2314 /* Awe and Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92DC366F2BB57AF3007E2314 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					1,
+				);
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					92DC36762BB57AF3007E2314 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 92DC36722BB57AF3007E2314 /* Build configuration list for PBXProject "Projet jeu de rythme" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92DC366E2BB57AF3007E2314;
+			productRefGroup = 92DC36782BB57AF3007E2314 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92DC36762BB57AF3007E2314 /* Projet jeu de rythme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92DC36752BB57AF3007E2314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9209DEEA2BC81C9F004BDA9A /* abstractArrow_500x216.png in Resources */,
+				92406DBE2BC597A7000AF525 /* abstractBackground_2048x1638.jpg in Resources */,
+				922F773E2BC00B120035BA2E /* she - Journey 3.mp3 in Resources */,
+				922F775C2BC053B30035BA2E /* abstractCircleGreen_1250x1250.png in Resources */,
+				922F774B2BC00B1D0035BA2E /* Vexento - Sons of Norway.mp3 in Resources */,
+				9225A53B2BCEAA4B0099ED93 /* futuristicBackgroundGame_1920x1080.png in Resources */,
+				922F77402BC00B120035BA2E /* Tzesar - Listen To My Heart.mp3 in Resources */,
+				9261BACC2BD2D87700D7639B /* characterIcon_1024x1024.jpg in Resources */,
+				922F775B2BC053B30035BA2E /* abstractCircleBlue_1250x1250.png in Resources */,
+				922F77492BC00B1D0035BA2E /* Lensko - Standby.mp3 in Resources */,
+				92406DC42BC5985E000AF525 /* SAINT PEPSI - tell me.mp3 in Resources */,
+				922F77532BC00B280035BA2E /* FIBRE - SSM2044.mp3 in Resources */,
+				9225A5242BCEA5E20099ED93 /* characterDefeat_927x500.png in Resources */,
+				922F774D2BC00B1D0035BA2E /* Vexento - Glow.mp3 in Resources */,
+				9209DEEC2BC83DF6004BDA9A /* Lensko - Let's Go!.mp3 in Resources */,
+				92DC36842BB57AF5007E2314 /* Assets.xcassets in Resources */,
+				9225A5422BCEAA510099ED93 /* futuristicBackgroundMenuB_1920x1080.png in Resources */,
+				9225A5362BCEA9E90099ED93 /* Syntax Error - Sunny Suburbs.mp3 in Resources */,
+				922F774A2BC00B1D0035BA2E /* Lensko - Cetus.mp3 in Resources */,
+				92DC36822BB57AF3007E2314 /* Main.storyboard in Resources */,
+				9225A5262BCEA5E20099ED93 /* characterVictory_500x680.png in Resources */,
+				9225A5232BCEA5E20099ED93 /* characterDefeat_1142x616.png in Resources */,
+				9209DEF02BC84596004BDA9A /* abstractGreater_76x89.png in Resources */,
+				9225A5432BCEAA510099ED93 /* futuristicBackgroundMenuA_1920x1080.png in Resources */,
+				922F773F2BC00B120035BA2E /* DJ Mehdi [android52 Remix] - Signatune.mp3 in Resources */,
+				92406DC02BC597E2000AF525 /* abstractBackground_300x240.jpg in Resources */,
+				9225A5472BCEAB120099ED93 /* futuristicBackgroundMenuFull_2560x1080.png in Resources */,
+				9225A5412BCEAA510099ED93 /* futuristicBackgroundMenuD_1920x1080.png in Resources */,
+				922F773C2BC00B120035BA2E /* she - Chiptune Superstar.mp3 in Resources */,
+				922F77482BC00B1D0035BA2E /* Professor Kliq - Tail Lights.mp3 in Resources */,
+				922F77602BC054630035BA2E /* abstractCircleGreen_300x300.png in Resources */,
+				9209DEE92BC81C9F004BDA9A /* abstractArrow_1327x572.png in Resources */,
+				9225A5372BCEA9E90099ED93 /* Syntax Error - Winter Golf.mp3 in Resources */,
+				922F774C2BC00B1D0035BA2E /* Lensko - Circles.mp3 in Resources */,
+				92406DC62BC5985E000AF525 /* MEGAS - Stargazer.mp3 in Resources */,
+				922F775E2BC0545E0035BA2E /* abstractCircleBlue_300x300.png in Resources */,
+				922F773D2BC00B120035BA2E /* Hitomi Sato [VanilluxePavilion Remix] - Driftveil City.mp3 in Resources */,
+				922F77522BC00B280035BA2E /* Levantine [Agent Stereo Remix] - Midnight.mp3 in Resources */,
+				9225A5442BCEAA510099ED93 /* futuristicBackgroundMenuC_1920x1080.png in Resources */,
+				9225A5252BCEA5E20099ED93 /* characterVictory_1601x2176.png in Resources */,
+				92406DC52BC5985E000AF525 /* 憂鬱 - Slow.mp3 in Resources */,
+				922F77542BC00B280035BA2E /* Vasily Umanets - The Tool.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92DC36732BB57AF3007E2314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DC367B2BB57AF3007E2314 /* AppDelegate.swift in Sources */,
+				92DC368F2BB58948007E2314 /* EcranJeu.swift in Sources */,
+				92DC367D2BB57AF3007E2314 /* SceneDelegate.swift in Sources */,
+				922F77582BC04FDB0035BA2E /* EcranFin.swift in Sources */,
+				922F77562BC04FCF0035BA2E /* EcranAccueil.swift in Sources */,
+				92DC36932BB59796007E2314 /* Generation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92DC36802BB57AF3007E2314 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DC36812BB57AF3007E2314 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92DC36892BB57AF5007E2314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92DC368A2BB57AF5007E2314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92DC368C2BB57AF5007E2314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Projet jeu de rythme/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moi.Projet-jeu-de-rythme";
+				PRODUCT_NAME = "Awe and Time";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92DC368D2BB57AF5007E2314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Projet jeu de rythme/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moi.Projet-jeu-de-rythme";
+				PRODUCT_NAME = "Awe and Time";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92DC36722BB57AF3007E2314 /* Build configuration list for PBXProject "Projet jeu de rythme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DC36892BB57AF5007E2314 /* Debug */,
+				92DC368A2BB57AF5007E2314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DC368B2BB57AF5007E2314 /* Build configuration list for PBXNativeTarget "Projet jeu de rythme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DC368C2BB57AF5007E2314 /* Debug */,
+				92DC368D2BB57AF5007E2314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92DC366F2BB57AF3007E2314 /* Project object */;
+}
