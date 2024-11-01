@@ -1,0 +1,1430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dqy-D6-K2h">
+    <device id="retina6_12" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="66V-dy-B2T">
+            <objects>
+                <navigationController id="Dqy-D6-K2h" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="18G-jT-weL"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zFl-G5-hIX">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="32"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="70G-WG-NUa" kind="relationship" relationship="rootViewController" id="cg8-2I-d9p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wr2-vh-yjy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="184" y="-2098"/>
+        </scene>
+        <!--ecranAccueil-->
+        <scene sceneID="g7E-o6-2FS">
+            <objects>
+                <viewController storyboardIdentifier="ecranAccueil1" title="ecranAccueil" id="70G-WG-NUa" customClass="EcranAccueil" customModule="Awe_and_Time" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3lv-BD-HLf">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="futuristicBackgroundMenuA_1920x1080" translatesAutoresizingMaskIntoConstraints="NO" id="GO4-EX-FnJ">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chillwave" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBC-MG-iCp">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="50"/>
+                                <color key="textColor" systemColor="systemMintColor"/>
+                                <color key="highlightedColor" systemColor="systemPurpleColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="-2" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="_______" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrt-Tx-caw">
+                                <rect key="frame" x="0.0" y="20" width="852" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="50"/>
+                                <color key="textColor" systemColor="systemMintColor"/>
+                                <color key="highlightedColor" systemColor="systemPurpleColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="-2" height="2"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractGreater_76x89" translatesAutoresizingMaskIntoConstraints="NO" id="WGg-Fn-9zb">
+                                <rect key="frame" x="744" y="159" width="122" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqC-Ms-aM0">
+                                <rect key="frame" x="327" y="222" width="198" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="SAINT PEPSI" subtitle="tell me" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="70G-WG-NUa" eventType="touchUpInside" id="obr-q7-2rO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Gy-Hy-69k">
+                                <rect key="frame" x="551" y="166" width="201" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="憂鬱" subtitle="Slow" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="70G-WG-NUa" eventType="touchUpInside" id="CNN-iT-Rrj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPS-lx-haS">
+                                <rect key="frame" x="99" y="166" width="199" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="MEGAS" subtitle="Stargazer" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="70G-WG-NUa" eventType="touchUpInside" id="uO5-t2-2zY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3E3-32-85s"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="HX5-kE-7st" appends="YES" id="eNC-LP-yDi"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="RZ2-B1-EX8"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="segueJeu" id="aZA-xZ-Juw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dKm-of-jk9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="HX5-kE-7st">
+                    <connections>
+                        <segue destination="r5Z-lh-yg5" kind="show" id="kE9-Y6-WQG"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-880.28169014084517" y="-1170.2290076335878"/>
+        </scene>
+        <!--ecranAccueil-->
+        <scene sceneID="lCV-lb-AeB">
+            <objects>
+                <viewController storyboardIdentifier="ecranAccueil2" title="ecranAccueil" id="r5Z-lh-yg5" customClass="EcranAccueil" customModule="Awe_and_Time" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2ZX-Fm-puO">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="futuristicBackgroundMenuB_1920x1080" translatesAutoresizingMaskIntoConstraints="NO" id="sGk-HR-O0U">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Future Funk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSp-JJ-I6S">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="42"/>
+                                <color key="textColor" systemColor="systemMintColor"/>
+                                <color key="highlightedColor" systemColor="systemPurpleColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="-2" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="_________" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMi-9V-99L">
+                                <rect key="frame" x="0.0" y="20" width="852" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="42"/>
+                                <color key="textColor" systemColor="systemMintColor"/>
+                                <color key="highlightedColor" systemColor="systemPurpleColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="-2" height="2"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractGreater_76x89" translatesAutoresizingMaskIntoConstraints="NO" id="m07-jN-anT">
+                                <rect key="frame" x="742" y="159" width="122" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4WW-aO-gC6">
+                                <rect key="frame" x="73" y="262" width="228" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="FIBRE" subtitle="SSM2044" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="r5Z-lh-yg5" eventType="touchUpInside" id="grr-E0-vgE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8u-kP-naZ">
+                                <rect key="frame" x="542" y="262" width="229" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Vasily Umanets" subtitle="The Tool" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="r5Z-lh-yg5" eventType="touchUpInside" id="sd4-zm-KAl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bgv-vX-B95">
+                                <rect key="frame" x="228" y="141" width="397" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Levantine [Agent Stereo Remix]" subtitle="Midnight" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="r5Z-lh-yg5" eventType="touchUpInside" id="OBa-nr-rND"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VgO-qT-HVk"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="djC-jN-SX0" appends="YES" id="19m-aj-efE"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xhg-3Y-BEj"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="segueJeu" id="Kyf-mq-6lX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A7d-kL-U3a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="djC-jN-SX0">
+                    <connections>
+                        <segue destination="CB5-if-oc1" kind="show" id="T3f-7F-2O4"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-161.26760563380282" y="-1170.2290076335878"/>
+        </scene>
+        <!--ecranAccueil-->
+        <scene sceneID="dIV-Yl-VrB">
+            <objects>
+                <viewController storyboardIdentifier="ecranAccueil3" title="ecranAccueil" id="CB5-if-oc1" customClass="EcranAccueil" customModule="Awe_and_Time" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AV8-z8-tAV">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="futuristicBackgroundMenuC_1920x1080" translatesAutoresizingMaskIntoConstraints="NO" id="hK7-aA-Vyc">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Progressive House" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JVh-k9-aZI">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="34"/>
+                                <color key="textColor" systemColor="systemMintColor"/>
+                                <color key="highlightedColor" systemColor="systemPurpleColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="-2" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="___________" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9T-Ym-kf3">
+                                <rect key="frame" x="0.0" y="10" width="852" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="34"/>
+                                <color key="textColor" systemColor="systemMintColor"/>
+                                <color key="highlightedColor" systemColor="systemPurpleColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="-2" height="2"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractGreater_76x89" translatesAutoresizingMaskIntoConstraints="NO" id="7BO-2V-GFM">
+                                <rect key="frame" x="744" y="159" width="122" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cjs-CI-vgn">
+                                <rect key="frame" x="11" y="268" width="198" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Lensko" subtitle="Cetus" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="CB5-if-oc1" eventType="touchUpInside" id="2g8-TY-VFg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wk-Pf-J3p">
+                                <rect key="frame" x="635" y="268" width="200" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Lensko" subtitle="Standby" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="CB5-if-oc1" eventType="touchUpInside" id="lau-Ch-Dhm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84I-JV-qKF">
+                                <rect key="frame" x="220" y="232" width="198" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Lensko" subtitle="Circles" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="CB5-if-oc1" eventType="touchUpInside" id="7Y8-CS-xra"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZ7-Ha-UmF">
+                                <rect key="frame" x="427" y="232" width="200" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Lensko" subtitle="Let's Go!" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="CB5-if-oc1" eventType="touchUpInside" id="k5S-LP-rl7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HXz-ll-nZ4">
+                                <rect key="frame" x="327" y="121" width="200" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Vexento" subtitle="Glow" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="CB5-if-oc1" eventType="touchUpInside" id="lnd-I8-856"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQS-rp-K2t">
+                                <rect key="frame" x="534" y="88" width="235" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Vexento" subtitle="Sons of Norway" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="CB5-if-oc1" eventType="touchUpInside" id="pOh-VH-yeR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fqj-r1-2wB">
+                                <rect key="frame" x="83" y="88" width="235" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Professor Kliq" subtitle="Tail Lights" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="CB5-if-oc1" eventType="touchUpInside" id="wLH-5v-SdL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="41q-dj-ASq"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="lfS-bs-7gW" appends="YES" id="H7p-Z8-qOC"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="Gw9-3c-0EM"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="segueJeu" id="0sY-V6-f58"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iZG-Du-Ja9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="lfS-bs-7gW">
+                    <connections>
+                        <segue destination="gcr-1E-9ZG" kind="show" id="wiO-dd-Xpb"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="567.6056338028169" y="-1170.2290076335878"/>
+        </scene>
+        <!--ecranAccueil-->
+        <scene sceneID="AQK-Sl-agL">
+            <objects>
+                <viewController storyboardIdentifier="ecranAccueil4" title="ecranAccueil" id="gcr-1E-9ZG" customClass="EcranAccueil" customModule="Awe_and_Time" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IGg-T2-hKT">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="futuristicBackgroundMenuD_1920x1080" translatesAutoresizingMaskIntoConstraints="NO" id="QcN-Q1-jHT">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Complextro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9g-jM-dh7">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="34"/>
+                                <color key="textColor" systemColor="systemMintColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="-2" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="______" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EiU-5H-RlA">
+                                <rect key="frame" x="0.0" y="15" width="852" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="34"/>
+                                <color key="textColor" systemColor="systemMintColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="-2" height="2"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractGreater_76x89" translatesAutoresizingMaskIntoConstraints="NO" id="6qu-Ob-1yu">
+                                <rect key="frame" x="744" y="159" width="121" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Frj-5w-vPV">
+                                <rect key="frame" x="77" y="292" width="242" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tzesar" subtitle="Listen To My Heart" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="gcr-1E-9ZG" eventType="touchUpInside" id="d8O-m1-LLh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ioi-47-niG">
+                                <rect key="frame" x="461" y="164" width="226" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="she" subtitle="Chiptune Superstar" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="gcr-1E-9ZG" eventType="touchUpInside" id="uGw-G5-Xhe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XyL-Vz-6id">
+                                <rect key="frame" x="352" y="252" width="434" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Hitomi Sato [VanilluxePavilion Remix]" subtitle="Driftveil City" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="gcr-1E-9ZG" eventType="touchUpInside" id="AUT-85-eqr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgE-9r-N5C">
+                                <rect key="frame" x="77" y="138" width="345" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="DJ Mehdi [android52 Remix]" subtitle="Signatune" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="gcr-1E-9ZG" eventType="touchUpInside" id="YX4-rD-085"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEi-af-6bn">
+                                <rect key="frame" x="547" y="76" width="202" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="she" subtitle="Journey 3" titleAlignment="trailing">
+                                    <backgroundConfiguration key="background" image="abstractBackground_300x240"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <fontDescription key="subtitleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.91779965162277222" green="0.82417434453964233" blue="0.55659228563308716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="demarrerJeu:" destination="gcr-1E-9ZG" eventType="touchUpInside" id="CXv-uh-bLS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ms5-WV-6CR"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="w0F-Yf-7jT" appends="YES" id="A8e-Eo-K3v"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="LA1-Ww-yv9"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="segueJeu" id="bbt-CL-jze"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hzv-NB-NhX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="w0F-Yf-7jT">
+                    <connections>
+                        <segue destination="70G-WG-NUa" kind="show" id="sgo-TW-fnZ"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1265.4929577464789" y="-1170.2290076335878"/>
+        </scene>
+        <!--ecranJeu-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ecranJeu" title="ecranJeu" extendedLayoutIncludesOpaqueBars="YES" id="BYZ-38-t0r" customClass="EcranJeu" customModule="Awe_and_Time" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="futuristicBackgroundGame_1920x1080" translatesAutoresizingMaskIntoConstraints="NO" id="RcT-dP-TFD">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="WEJ-7X-aKq">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="0">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="DwQ-2b-7G8">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="1">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="jeS-R8-nPm">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="2">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="ACY-iS-hEN">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="3">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="s5j-HQ-JIR">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="4">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="slL-Rh-rKy">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="5">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="y6c-kn-APz">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="6">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="zCl-uJ-5sU">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="7">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="Ja2-v0-Kc6">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="8">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="kCv-OW-W7o">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="9">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="Nob-1O-92W">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="10">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="Tax-q6-Wje">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="11">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="IeS-KY-tfi">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="12">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="QZO-3b-9F6">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="13">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="G3Q-bt-m7J">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="14">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="usU-1V-df0">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="15">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="8dT-IX-JSr">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="16">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="9bz-4V-S6k">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="17">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="aul-nT-rZ9">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="18">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="FUQ-Z8-DK0">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="19">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="pPC-Vj-DDL">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="20">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="A6c-Dz-d5M">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="21">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="bsn-Dl-sXA">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="22">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="Rej-Cd-oRl">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="23">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="SpD-1v-cbi">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="24">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="B6x-aX-gCa">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="25">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="aDD-RI-iMb">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="26">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="iLU-N7-kgg">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="27">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="hyf-dz-YZg">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="28">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="rTC-cn-7hD">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="29">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="PT8-NB-EqT">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="30">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstractCircleGreen_300x300" translatesAutoresizingMaskIntoConstraints="NO" id="RYj-Fi-ZAy">
+                                <rect key="frame" x="100" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="31">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Kc-rE-b0p">
+                                <rect key="frame" x="0.0" y="32" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="0">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XD2-2J-VhB"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMY-qp-nZN">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="1">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j6Z-JU-8od"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYv-wd-sfh">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="2">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w9J-qX-R61"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jtc-fd-T8D">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="3">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jUn-cB-oab"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yv-vZ-u08">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="4">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VNI-cS-45I"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TIQ-jo-1VK">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="5">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5d2-aG-yHE"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMi-9u-WTu">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="6">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ETR-0P-fIq"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heS-CN-JC3">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="7">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CZK-Cl-Asa"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSd-ee-JgO">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="8">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wp7-eB-3Pm"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBq-DF-FPM">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="9">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Ae-7S-Sas"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uoe-J2-92Z">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="10">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v0g-BX-MrW"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QH7-x2-iDw">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="11">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JWj-NB-fDk"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jUb-nk-fGb">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="12">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KDU-lW-6yA"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yY-IN-4sr">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="13">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PJX-Me-duF"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7T-o6-k5F">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="14">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eBx-d6-aiu"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZM-I4-Lll">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="15">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UZw-jR-1pp"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RV1-Ib-5Qq">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="16">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E4k-we-Wq0"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ad5-wV-cY4">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="17">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ohz-vJ-8P4"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QeZ-P0-1j5">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="18">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sam-DM-eqm"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ltf-Qp-KuK">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="19">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PfN-yw-WgD"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7PT-mJ-VVd">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="20">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LOh-ri-rvW"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7r-zX-t89">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="21">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nra-Yb-ZtI"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsL-Rb-Cwf">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="22">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C2N-Wf-Rob"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5th-1t-oov">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="23">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HTa-Nh-f2u"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mU9-q0-e80">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="24">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SV4-5X-gyZ"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dK6-Ki-uDS">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="25">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sAh-ds-6ZI"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hv5-XI-YMq">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="26">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DWf-k1-lC5"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHl-Va-qp9">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="27">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uGG-AV-jAP"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvB-jj-eqq">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="28">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="847-Sx-hfb"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rem-fv-wlu">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="29">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EnK-l3-4rv"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nuE-9H-fsc">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="30">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rGN-eW-TWQ"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1v-Tv-1sN">
+                                <rect key="frame" x="0.0" y="32" width="99" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="31">
+                                    <accessibilityTraits key="traits" button="YES" image="YES" adjustable="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="1000" image="abstractCircleBlue_300x300"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appuiCercle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Rm-QS-zXR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="m6B-cR-dbJ"/>
+                    <value key="contentSizeForViewInPopover" type="size" width="852" height="393"/>
+                    <connections>
+                        <outlet property="boutonRetour" destination="m6B-cR-dbJ" id="xIx-GQ-wRX"/>
+                        <outletCollection property="objets" destination="nuE-9H-fsc" collectionClass="NSMutableArray" id="dhe-Bs-GHz"/>
+                        <outletCollection property="objets" destination="rem-fv-wlu" collectionClass="NSMutableArray" id="BtB-Z5-yUA"/>
+                        <outletCollection property="objets" destination="nvB-jj-eqq" collectionClass="NSMutableArray" id="wHa-n3-jhb"/>
+                        <outletCollection property="objets" destination="lHl-Va-qp9" collectionClass="NSMutableArray" id="pty-bx-hwa"/>
+                        <outletCollection property="objets" destination="hv5-XI-YMq" collectionClass="NSMutableArray" id="fpr-Yn-QIq"/>
+                        <outletCollection property="objets" destination="dK6-Ki-uDS" collectionClass="NSMutableArray" id="38V-sZ-JFF"/>
+                        <outletCollection property="objets" destination="mU9-q0-e80" collectionClass="NSMutableArray" id="qiI-Hw-nHm"/>
+                        <outletCollection property="objets" destination="5th-1t-oov" collectionClass="NSMutableArray" id="04p-XI-9xz"/>
+                        <outletCollection property="objets" destination="tsL-Rb-Cwf" collectionClass="NSMutableArray" id="fGV-Qi-ASQ"/>
+                        <outletCollection property="objets" destination="b7r-zX-t89" collectionClass="NSMutableArray" id="Qeh-gD-VEf"/>
+                        <outletCollection property="objets" destination="7PT-mJ-VVd" collectionClass="NSMutableArray" id="eFt-Mm-cLY"/>
+                        <outletCollection property="objets" destination="Ltf-Qp-KuK" collectionClass="NSMutableArray" id="7A0-zH-vvt"/>
+                        <outletCollection property="objets" destination="QeZ-P0-1j5" collectionClass="NSMutableArray" id="g5J-da-w1G"/>
+                        <outletCollection property="objets" destination="Ad5-wV-cY4" collectionClass="NSMutableArray" id="1Ye-P3-fLt"/>
+                        <outletCollection property="objets" destination="RV1-Ib-5Qq" collectionClass="NSMutableArray" id="IP1-GB-eao"/>
+                        <outletCollection property="objets" destination="0ZM-I4-Lll" collectionClass="NSMutableArray" id="Ogv-Ju-SG7"/>
+                        <outletCollection property="objets" destination="P7T-o6-k5F" collectionClass="NSMutableArray" id="XWw-cl-vEp"/>
+                        <outletCollection property="objets" destination="3yY-IN-4sr" collectionClass="NSMutableArray" id="Wyf-x5-Z8N"/>
+                        <outletCollection property="objets" destination="jUb-nk-fGb" collectionClass="NSMutableArray" id="uht-7y-iBR"/>
+                        <outletCollection property="objets" destination="QH7-x2-iDw" collectionClass="NSMutableArray" id="0z3-HI-htK"/>
+                        <outletCollection property="objets" destination="uoe-J2-92Z" collectionClass="NSMutableArray" id="KHz-IJ-cwH"/>
+                        <outletCollection property="objets" destination="kBq-DF-FPM" collectionClass="NSMutableArray" id="QiH-4c-y01"/>
+                        <outletCollection property="objets" destination="bSd-ee-JgO" collectionClass="NSMutableArray" id="v1E-Jj-R6I"/>
+                        <outletCollection property="objets" destination="heS-CN-JC3" collectionClass="NSMutableArray" id="Qhs-AB-mcJ"/>
+                        <outletCollection property="objets" destination="pMi-9u-WTu" collectionClass="NSMutableArray" id="8Zi-1s-vf9"/>
+                        <outletCollection property="objets" destination="TIQ-jo-1VK" collectionClass="NSMutableArray" id="HZ2-BI-39W"/>
+                        <outletCollection property="objets" destination="9yv-vZ-u08" collectionClass="NSMutableArray" id="U44-Vt-8qg"/>
+                        <outletCollection property="objets" destination="Jtc-fd-T8D" collectionClass="NSMutableArray" id="w5H-ND-333"/>
+                        <outletCollection property="objets" destination="jYv-wd-sfh" collectionClass="NSMutableArray" id="ONf-zb-Niw"/>
+                        <outletCollection property="objets" destination="rMY-qp-nZN" collectionClass="NSMutableArray" id="m73-qT-FMg"/>
+                        <outletCollection property="objets" destination="8Kc-rE-b0p" collectionClass="NSMutableArray" id="VTn-6F-Pez"/>
+                        <outletCollection property="objets" destination="Q1v-Tv-1sN" collectionClass="NSMutableArray" id="03W-s0-hjA"/>
+                        <outletCollection property="objetsCliques" destination="WEJ-7X-aKq" collectionClass="NSMutableArray" id="9a5-aN-uGv"/>
+                        <outletCollection property="objetsCliques" destination="DwQ-2b-7G8" collectionClass="NSMutableArray" id="q5n-gK-TYr"/>
+                        <outletCollection property="objetsCliques" destination="jeS-R8-nPm" collectionClass="NSMutableArray" id="DRu-2v-DBY"/>
+                        <outletCollection property="objetsCliques" destination="ACY-iS-hEN" collectionClass="NSMutableArray" id="LOk-9H-NHR"/>
+                        <outletCollection property="objetsCliques" destination="zCl-uJ-5sU" collectionClass="NSMutableArray" id="i8Q-Wf-Zek"/>
+                        <outletCollection property="objetsCliques" destination="y6c-kn-APz" collectionClass="NSMutableArray" id="axi-vj-8jW"/>
+                        <outletCollection property="objetsCliques" destination="slL-Rh-rKy" collectionClass="NSMutableArray" id="ksF-KC-Ahl"/>
+                        <outletCollection property="objetsCliques" destination="s5j-HQ-JIR" collectionClass="NSMutableArray" id="g4b-vS-TSr"/>
+                        <outletCollection property="objetsCliques" destination="usU-1V-df0" collectionClass="NSMutableArray" id="zvN-4C-mah"/>
+                        <outletCollection property="objetsCliques" destination="G3Q-bt-m7J" collectionClass="NSMutableArray" id="u87-dp-EOY"/>
+                        <outletCollection property="objetsCliques" destination="QZO-3b-9F6" collectionClass="NSMutableArray" id="oEQ-dg-yzP"/>
+                        <outletCollection property="objetsCliques" destination="IeS-KY-tfi" collectionClass="NSMutableArray" id="46z-Ms-e6R"/>
+                        <outletCollection property="objetsCliques" destination="Tax-q6-Wje" collectionClass="NSMutableArray" id="7x2-93-XdM"/>
+                        <outletCollection property="objetsCliques" destination="Nob-1O-92W" collectionClass="NSMutableArray" id="Nsr-jI-zTd"/>
+                        <outletCollection property="objetsCliques" destination="kCv-OW-W7o" collectionClass="NSMutableArray" id="nCr-eN-b0p"/>
+                        <outletCollection property="objetsCliques" destination="Ja2-v0-Kc6" collectionClass="NSMutableArray" id="s2a-IL-91k"/>
+                        <outletCollection property="objetsCliques" destination="RYj-Fi-ZAy" collectionClass="NSMutableArray" id="Kvs-4g-570"/>
+                        <outletCollection property="objetsCliques" destination="PT8-NB-EqT" collectionClass="NSMutableArray" id="7F9-To-PGj"/>
+                        <outletCollection property="objetsCliques" destination="rTC-cn-7hD" collectionClass="NSMutableArray" id="wow-Kk-4pB"/>
+                        <outletCollection property="objetsCliques" destination="hyf-dz-YZg" collectionClass="NSMutableArray" id="ZBK-SC-1d4"/>
+                        <outletCollection property="objetsCliques" destination="iLU-N7-kgg" collectionClass="NSMutableArray" id="uEA-n7-Y39"/>
+                        <outletCollection property="objetsCliques" destination="aDD-RI-iMb" collectionClass="NSMutableArray" id="d8M-Uw-zIC"/>
+                        <outletCollection property="objetsCliques" destination="B6x-aX-gCa" collectionClass="NSMutableArray" id="5gC-3K-hW5"/>
+                        <outletCollection property="objetsCliques" destination="SpD-1v-cbi" collectionClass="NSMutableArray" id="FFZ-pL-9JU"/>
+                        <outletCollection property="objetsCliques" destination="Rej-Cd-oRl" collectionClass="NSMutableArray" id="cLo-sU-4L7"/>
+                        <outletCollection property="objetsCliques" destination="bsn-Dl-sXA" collectionClass="NSMutableArray" id="NFb-H4-Vio"/>
+                        <outletCollection property="objetsCliques" destination="A6c-Dz-d5M" collectionClass="NSMutableArray" id="LEG-wa-Chc"/>
+                        <outletCollection property="objetsCliques" destination="pPC-Vj-DDL" collectionClass="NSMutableArray" id="rMI-gj-5yZ"/>
+                        <outletCollection property="objetsCliques" destination="FUQ-Z8-DK0" collectionClass="NSMutableArray" id="fEj-MP-dsI"/>
+                        <outletCollection property="objetsCliques" destination="aul-nT-rZ9" collectionClass="NSMutableArray" id="tDM-Tv-s4t"/>
+                        <outletCollection property="objetsCliques" destination="9bz-4V-S6k" collectionClass="NSMutableArray" id="cBU-9D-Aqv"/>
+                        <outletCollection property="objetsCliques" destination="8dT-IX-JSr" collectionClass="NSMutableArray" id="I4d-DD-4Q8"/>
+                        <segue destination="xnU-5A-hg8" kind="show" identifier="segueDefaite" id="Jbu-d1-V94"/>
+                        <segue destination="ctK-SS-lQm" kind="show" identifier="segueVictoire" id="4GN-oN-uPZ"/>
+                        <segue destination="70G-WG-NUa" kind="show" identifier="segueAccueil" id="7DW-9V-GmQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="184" y="-294"/>
+        </scene>
+        <!--ecranVictoire-->
+        <scene sceneID="ob6-QL-PVC">
+            <objects>
+                <viewController storyboardIdentifier="ecranVictoire" title="ecranVictoire" id="ctK-SS-lQm" customClass="EcranFin" customModule="Awe_and_Time" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vcO-S7-elJ">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="futuristicBackgroundMenuA_1920x1080" translatesAutoresizingMaskIntoConstraints="NO" id="DsY-Cx-6M2">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBc-fO-Vke">
+                                <rect key="frame" x="16" y="264" width="249" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Retour">
+                                    <backgroundConfiguration key="background" image="abstractArrow_500x216"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W7" family="Hiragino Sans" pointSize="30"/>
+                                    <color key="baseForegroundColor" red="0.36325567960739136" green="0.10761763900518417" blue="0.07685648649930954" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="retourAccueil:" destination="ctK-SS-lQm" eventType="touchUpInside" id="jfp-rO-f6v"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vies restantes : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pCU-UJ-SXD">
+                                <rect key="frame" x="75" y="170" width="697" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W7" family="Hiragino Sans" pointSize="50"/>
+                                <color key="textColor" red="1" green="0.47420320437800956" blue="0.45810957720687973" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="-2" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCV-uM-bta">
+                                <rect key="frame" x="132" y="67" width="695" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W7" family="Hiragino Sans" pointSize="50"/>
+                                <color key="textColor" red="0.34128867709959754" green="0.66682449494949503" blue="0.34542189664540562" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="-2" height="2"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="characterVictory_500x680.png" translatesAutoresizingMaskIntoConstraints="NO" id="JQZ-i9-87w">
+                                <rect key="frame" x="633" y="168" width="193" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ekj-1p-bpA"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pew-Hg-AEX"/>
+                    <connections>
+                        <outlet property="texteScore" destination="YCV-uM-bta" id="VMS-LP-qJk"/>
+                        <outlet property="texteVies" destination="pCU-UJ-SXD" id="mrA-wx-FE7"/>
+                        <segue destination="70G-WG-NUa" kind="show" identifier="segueAccueil" id="D05-KE-p23"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UcC-DR-jpf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-161" y="668"/>
+        </scene>
+        <!--ecranDefaite-->
+        <scene sceneID="ENG-he-BUs">
+            <objects>
+                <viewController storyboardIdentifier="ecranDefaite" title="ecranDefaite" id="xnU-5A-hg8" customClass="EcranFin" customModule="Awe_and_Time" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M3W-cH-C2L">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="futuristicBackgroundMenuA_1920x1080" translatesAutoresizingMaskIntoConstraints="NO" id="k6d-FV-QyS">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1D-u7-KHY">
+                                <rect key="frame" x="16" y="264" width="249" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Retour">
+                                    <backgroundConfiguration key="background" image="abstractArrow_500x216"/>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W7" family="Hiragino Sans" pointSize="30"/>
+                                    <color key="baseForegroundColor" red="0.36325567960739136" green="0.10761763900518417" blue="0.07685648649930954" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="retourAccueil:" destination="xnU-5A-hg8" eventType="touchUpInside" id="NXC-LD-fgg"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vies restantes : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhG-Ls-DgN">
+                                <rect key="frame" x="75" y="170" width="695" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W7" family="Hiragino Sans" pointSize="50"/>
+                                <color key="textColor" red="1" green="0.47420320440000002" blue="0.45810957720000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="-2" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8u-mr-6aw">
+                                <rect key="frame" x="132" y="112" width="695" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W7" family="Hiragino Sans" pointSize="50"/>
+                                <color key="textColor" red="0.34128867709999999" green="0.66682449489999995" blue="0.3454218966" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="-2" height="2"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="characterDefeat_927x500.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qmi-fQ-Fe4">
+                                <rect key="frame" x="498" y="206" width="353" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Rlq-o0-RMW"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="C9g-pd-A2y"/>
+                    <connections>
+                        <outlet property="texteScore" destination="Y8u-mr-6aw" id="Zkw-NB-RXN"/>
+                        <outlet property="texteVies" destination="vhG-Ls-DgN" id="2Uc-tD-UEr"/>
+                        <segue destination="70G-WG-NUa" kind="show" identifier="segueAccueil" id="C0s-2E-ROS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n99-iy-nQH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="568" y="668"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="0sY-V6-f58"/>
+        <segue reference="7DW-9V-GmQ"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="abstractArrow_500x216" width="500" height="216"/>
+        <image name="abstractBackground_300x240" width="300" height="240"/>
+        <image name="abstractCircleBlue_300x300" width="300" height="300"/>
+        <image name="abstractCircleGreen_300x300" width="300" height="300"/>
+        <image name="abstractGreater_76x89" width="76" height="89"/>
+        <image name="characterDefeat_927x500.png" width="927" height="500"/>
+        <image name="characterVictory_500x680.png" width="500" height="680"/>
+        <image name="futuristicBackgroundGame_1920x1080" width="1920" height="1080"/>
+        <image name="futuristicBackgroundMenuA_1920x1080" width="1920" height="1080"/>
+        <image name="futuristicBackgroundMenuB_1920x1080" width="1920" height="1080"/>
+        <image name="futuristicBackgroundMenuC_1920x1080" width="1920" height="1080"/>
+        <image name="futuristicBackgroundMenuD_1920x1080" width="1920" height="1080"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
